@@ -32,6 +32,8 @@ class Hello_world:
         print(self._world)
         print(self.__world)
 
+    # def __get_printer(self):
+
 class Hi(Hello_world):
     def hi_print(self):
         print(self.hello)
